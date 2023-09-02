@@ -168,12 +168,19 @@ footer {
     }
 
     footer {
-        position: absolute;
         bottom: 0;
         color: #FFF;
-        width: 100%;
-        height: 80px;    
+        width: 100%;    
         text-align: center;
         line-height: 100px;
+      }
+
+      .container form button{
+        background-color: #665afe;
+        transition: all 0.3s ease;
+      }
+
+      .container form button:hover{
+        opacity: 0.8;
       }
 }
